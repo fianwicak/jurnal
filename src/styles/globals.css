@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-['Lato'] font-[sans-serif];
+}
+
+body {
+  @apply bg-[#F2F5EB];
+}
+
+h1,
+h2,
+h3 {
+  @apply font-['Raleway'] font-[sans-serif];
+}
+
+.logo {
+  @apply font-['Raleway'] font-bold;
+}
+
+.container {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 01px;
+}
